@@ -1,0 +1,7 @@
+- Add logon/logoff to home page and display of log on  name
+- Design favicon
+- Clean up home page text
+- Improve home page background
+- Clean up small screen layout
+- Use sass
+- Design second tear pages

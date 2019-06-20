@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* Style sheet for the resume */
+
+	html{
+		background-color:#EEE;
+		padding:0 1em;
+	}
+	
+	body {
+		background-color:#FFF;
+		font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+		padding:12px;
+		border:solid #AAA;
+		border-width:1px 3px 3px 1px;
+		margin:12px auto;
+		max-width: 860px;
+	}
+	
+	.top {
+		height: 9em;
+		width: 860px;
+		text-align: center;
+	}
+	
+	.summary {
+		clear: both;
+	}
+	
+	.resumelogo {
+		float:left;
+		height:140px;
+		width: 25%;
+		background-image: url(../images/CPClogo196x100.png);
+		background-position: 0px 0px;
+		background-repeat: no-repeat;
+	}
+	
+	.homelink {
+		float:left;
+		height:140px;
+		width: 25%;
+		text-align: center;
+	}
+	
+	.address {
+		float: left;
+		height: 140px;
+		width: 50%;
+		text-align: center;
+	}
+	
+	.address h3{
+		border-bottom: none;
+		margin-top: 0;
+	}
+		
+	.date {
+		clear: right;		
+		float:right;
+		font-size:16px;
+		margin: 14px 44px 0 0;
+		font-weight:bold;
+		text-align:right;
+	}
+
+	.eddate {
+		clear: right;		
+		float:right;
+		font-size:16px;
+		margin: 0 10px 0 0;
+		font-weight:bold;
+		text-align:right;
+	}
+	
+	.listing {
+		margin-top: 3px;
+	}
+	
+	h1{
+		font-size: 20px;
+		font-family: Helvetica, Verdana, Arial, sans-serif;
+		text-align: center;
+	}
+	
+	h2 {
+		clear:both;
+		font-size: 24px;
+		font-weight:bold;
+		margin: 20px 0 0 0;
+		font-variant: small-caps;
+		padding-left:4px;
+		background-color:#EEE;
+		border-bottom: 1px solid #999;
+		letter-spacing: 2px;
+	}
+	
+	h3 {
+		margin: 5px 0 0 10px;
+	}
+	
+		h4 {
+		margin: 3px 0 0 10px;
+		font-style: italic;
+	}
+
+	.homelink a {
+		font-weight:bold;
+		text-decoration: none;
+		color: #000;
+		display: block;
+		margin: 15px;
+		padding: 9px;
+		border: 3px solid #f5a06e;
+		background: url(../images/mobile_link_arrow.png) no-repeat right center;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		background-color: #EEE;
+	}
+	
+	.homelink a:hover { color: #f5a06e; background-color: #FFF; }
+	
+	@media print {
+		body {
+			background-color:#FFF;
+			border-width:0 0 0 0;
+			margin:0;
+			width:100%
+		}
+	}

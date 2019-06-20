@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* Layout Medium Screens */
+
+.page {
+    max-width: 800px;
+    background: url(../images/backdrop800x664a.jpg) no-repeat center 0px;
+}
+
+header {
+    height: 150px;
+}
+
+header p.logo {
+    width: 350px;
+    height: 30px;
+    top: 35px;
+    left: 10%;
+    font-size: 30px;
+}
+
+article {
+    padding: 20px 20px 10px 20px;
+}
+
+nav {
+    top: 130px;
+}
+
+nav a {
+    margin-left: 20px;
+    font-size: .9em;
+}

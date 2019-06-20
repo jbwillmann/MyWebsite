@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* Layout Large Screens (default for older browsers) */
+
+.page {
+    max-width: 1024px;
+    background: url(../images/backdrop1024x860a.jpg) no-repeat center 0px;
+}
+
+header {
+    height: 210px;
+}
+
+header p.logo {
+    width: 550px;
+    height: 45px;
+    top: 45px;
+    left: 10%;
+    font-size: 40px;
+}
+
+article {
+    padding: 10px 20px 10px 20px;
+}
+
+nav {
+    top: 165px;
+}
+
+nav a {
+    margin-left: 40px;
+}

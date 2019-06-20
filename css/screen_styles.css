@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* Global Content Formatting and Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: #515673 url(../images/background_gradient.jpg) repeat-x 0px 0px;
+}
+
+header p.logo {
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Brush Script MT", cursive;
+    color: #e9e1e5;
+}
+
+header p.name {
+    display: block;
+    position: absolute;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    top: 5px;
+    right: 5%;
+    color: #e9e1e5;
+}
+
+header a {
+ color: yellow;   
+}
+
+header a:hover {   
+  color: white
+}
+.page {
+    margin: 0px auto 0px auto;
+    position: relative;
+    background-color: #FFF;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #a6430a;
+    margin: 0 0 .5em 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    margin: 0 0 1em 0;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+}
+
+p {
+    margin: 0 0 .75em 0;
+}
+
+a {
+    color: #e9e1e5;
+}
+
+a:hover {
+    color: #8d9dce;
+}
+
+.signature {
+    margin: 13px 0px 10px 150px;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Brush Script MT", cursive;
+    color: #e9e1e5;
+}
+
+footer {
+    font-size: .85em;
+    color: #e9e1e5;
+    max-width: 980px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    padding: 10px 10px 10px 30px;
+    background-color: transparent;
+}
+
+footer a {
+    margin: 33px 0px 10px 50px;
+}
+
+nav {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+nav a {
+    color: #e9e1e5;
+    //	text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color: #000;
+}

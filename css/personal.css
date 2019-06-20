@@ -1,0 +1,20 @@
+/* CSS Document */
+
+	.homelink a {
+		float: right;
+		font-weight: bold;
+		text-decoration: none;
+		color: #000;
+		display: block;
+		margin: 15px;
+		padding: 9px;
+		border: 3px solid #f5a06e;
+		background: url(../images/mobile_link_arrow.png) no-repeat right center;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		background-color: #EEE;
+	}
+	
+	.homelink a:hover { color: #f5a06e; background-color: #FFF; }
+	
